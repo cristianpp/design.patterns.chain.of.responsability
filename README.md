@@ -5,7 +5,7 @@ Inicialmente se pensou em utilizar o padrão strategy, porém ainda continuariam
 do calculo de desconto e teriamos que verificar se a aplicação do desconto foi atendida. 
 
 Como não foi possível utilizar o padrão strategy, então recorremos ao padrão chain of responsability que é um padrão de projeto que cria uma cadeia de execução
-na qual cada processo será executado até que um seja satisfaça as informações passadas por parametro, se o primeiro método for atendido os outros não serão executados
+na qual cada processo será executado até que um satisfaça as informações passadas por parametro, se o primeiro método for atendido os outros não serão executados
 caso contrário o padrão chain of responsability encaminhará para o próximo.
 
 Resumindo o padrão chain of responsability diz que o primeiro que conseguir processar retorna a informação.
