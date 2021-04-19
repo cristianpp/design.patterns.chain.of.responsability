@@ -26,7 +26,7 @@ public class CalculadoraDeDescontosTest {
 	}
 
 	@Test
-	public void testCalcularOrcamentoComDescontoValorQueQuinhentos(){
+	public void testCalcularOrcamentoComDescontoValorMaiorQueQuinhentos(){
 		
 		Orcamento orcamento = new Orcamento(new BigDecimal("600"), 3);
 		BigDecimal orcamentoComDesconto = calculadoraDeDescontos.calcular(orcamento);
